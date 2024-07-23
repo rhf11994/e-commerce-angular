@@ -1,0 +1,87 @@
+<div *ngIf="aboutusInfo">
+  <div class="page-heading about-page-heading" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="inner-content">
+            <h2>{{ aboutusInfo.title }}</h2>
+            <span>{{ aboutusInfo.subTitle }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** About Area Starts ***** -->
+  <div class="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image">
+            <img [src]="aboutusInfo.aboutImg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-content">
+            <h4>{{ aboutusInfo.title }}</h4>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod kon tempor incididunt ut labore.</span
+            >
+            <div class="quote">
+              <i class="fa fa-quote-left"></i>
+              <p>
+                {{aboutusInfo.qoute}}
+              </p>
+            </div>
+         
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-behance"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** About Area Ends ***** -->
+
+  <!-- ***** Services Area Starts ***** -->
+  <section class="our-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Our Services</h2>
+            <span
+              >{{aboutusInfo.servicesDesc}}</span
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-4" *ngFor="let service of aboutusInfo.servicesType">
+          <div class="service-item">
+            <h4>{{service.name}}</h4>
+            <p>
+              {{service.description}}
+            </p>
+            <img [src]="service.image" alt="" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ***** Services Area Ends ***** -->
+</div>

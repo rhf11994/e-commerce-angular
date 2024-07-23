@@ -1,0 +1,269 @@
+
+<!-- ***** Main Banner Area Start ***** -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="left-content">
+          <div class="thumb">
+            <div class="inner-content">
+              <h4>We Are Hexashop</h4>
+              <span>Awesome, clean &amp; creative HTML5 Template</span>
+              <div class="main-border-button">
+                <a href="#">Purchase Now!</a>
+              </div>
+            </div>
+            <img src="assets/img/left-banner-image.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="right-content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="right-first-image">
+                <div class="thumb">
+                  <div class="inner-content">
+                    <h4>Women</h4>
+                    <span>Best Clothes For Women</span>
+                  </div>
+                  <div class="hover-content">
+                    <div class="inner">
+                      <h4>Women</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, conservisii ctetur
+                        adipiscing elit incid.
+                      </p>
+                      <div class="main-border-button">
+                        <a [routerLink]="['/category/Women']">Discover More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="assets/img/baner-right-image-01.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-first-image">
+                <div class="thumb">
+                  <div class="inner-content">
+                    <h4>Men</h4>
+                    <span>Best Clothes For Men</span>
+                  </div>
+                  <div class="hover-content">
+                    <div class="inner">
+                      <h4>Men</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, conservisii ctetur
+                        adipiscing elit incid.
+                      </p>
+                      <div class="main-border-button">
+                        <a [routerLink]="['/category/Men']">Discover More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="assets/img/baner-right-image-02.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-first-image">
+                <div class="thumb">
+                  <div class="inner-content">
+                    <h4>Kids</h4>
+                    <span>Best Clothes For Kids</span>
+                  </div>
+                  <div class="hover-content">
+                    <div class="inner">
+                      <h4>Kids</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, conservisii ctetur
+                        adipiscing elit incid.
+                      </p>
+                      <div class="main-border-button">
+                        <a [routerLink]="['/category/Kids']">Discover More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="assets/img/baner-right-image-03.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-first-image">
+                <div class="thumb">
+                  <div class="inner-content">
+                    <h4>Accessories</h4>
+                    <span>Best Trend Accessories</span>
+                  </div>
+                  <div class="hover-content">
+                    <div class="inner">
+                      <h4>Accessories</h4>
+                      <p>
+                        Lorem ipsum dolor sit amet, conservisii ctetur
+                        adipiscing elit incid.
+                      </p>
+                      <div class="main-border-button">
+                        <a [routerLink]="['/category/Accessories']">Discover More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="assets/img/baner-right-image-04.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ***** Men Banner Area Start ***** -->
+<div class="container mb-3" id="men" >
+<mdb-carousel 
+[isControls]="true"
+  class="carousel-multi-item multi-animation men-item-carousel"
+  [type]="'carousel-multi-item'"
+  [animation]="'slide'"
+  [indicators]="false"
+>
+  <mdb-carousel-item *ngFor="let item of slidesMen; let i = index" [interval]="10000" class="owl-men-item">
+    <div class="col-md-4 item" *ngFor="let card of item">
+
+          <div class="thumb all-img-home">
+            <!-- <div class="hover-content">
+              <ul>
+                <li>
+                  <a href="single-product.html"><i class="fa fa-eye"></i></a>
+                </li>
+                <li>
+                  <a href="single-product.html"><i class="fa fa-star"></i></a>
+                </li>
+                <li>
+                  <a href="single-product.html"
+                    ><i class="fa fa-shopping-cart"></i
+                  ></a>
+                </li>
+              </ul>
+            </div> -->
+            <mdb-card-img [src]="card.uploadPhoto[0]" alt="Card image cap"></mdb-card-img>
+          </div>
+          <div class="down-content">
+            <div class="w-75">
+              <h6>{{ card.name }}</h6>
+              <span>$120.00</span>
+            </div>
+            <ul class="stars">
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+            </ul>
+          </div>
+    
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel>
+</div>
+<!-- ***** Men Banner Area End ***** -->
+
+<!-- ***** Women Banner Area Start ***** -->
+<div class="container mb-3" id="men" >
+  <mdb-carousel 
+  [isControls]="true"
+    class="carousel-multi-item multi-animation men-item-carousel"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+    [indicators]="false"
+  >
+    <mdb-carousel-item *ngFor="let item of slidesWomen; let i = index" [interval]="10000" class="owl-men-item">
+      <div class="col-md-4 item" *ngFor="let card of item">
+  
+            <div class="thumb all-img-home">
+              <!-- <div class="hover-content">
+                <ul>
+                  <li>
+                    <a href="single-product.html"><i class="fa fa-eye"></i></a>
+                  </li>
+                  <li>
+                    <a href="single-product.html"><i class="fa fa-star"></i></a>
+                  </li>
+                  <li>
+                    <a href="single-product.html"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div> -->
+              <mdb-card-img [src]="card.uploadPhoto[0]" alt="Card image cap"></mdb-card-img>
+            </div>
+            <div class="down-content">
+              <div class="w-75">
+                <h6>{{ card.name }}</h6>
+                <span>$120.00</span>
+              </div>
+              <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+              </ul>
+            </div>
+      
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+</div>
+<!-- ***** Women Banner Area End ***** -->
+
+<!-- ***** Kids Banner Area Start ***** -->
+<div class="container mb-3" id="men" >
+  <mdb-carousel 
+  [isControls]="true"
+    class="carousel-multi-item multi-animation men-item-carousel"
+    [type]="'carousel-multi-item'"
+    [animation]="'slide'"
+    [indicators]="false"
+  >
+    <mdb-carousel-item *ngFor="let item of slideskids; let i = index" [interval]="10000" class="owl-men-item">
+      <div class="col-md-4 item" *ngFor="let card of item">
+  
+            <div class="thumb all-img-home">
+              <!-- <div class="hover-content">
+                <ul>
+                  <li>
+                    <a href="single-product.html"><i class="fa fa-eye"></i></a>
+                  </li>
+                  <li>
+                    <a href="single-product.html"><i class="fa fa-star"></i></a>
+                  </li>
+                  <li>
+                    <a href="single-product.html"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div> -->
+              <mdb-card-img [src]="card.uploadPhoto[0]" alt="Card image cap"></mdb-card-img>
+            </div>
+            <div class="down-content">
+              <div class="w-75">
+                <h6>{{ card.name }}</h6>
+                <span>$120.00</span>
+              </div>
+              <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+              </ul>
+            </div>
+      
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+</div>
+<!-- ***** Kids Banner Area End ***** -->

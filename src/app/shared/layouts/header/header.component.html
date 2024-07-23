@@ -1,0 +1,96 @@
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="main-nav">
+          <!-- ***** Logo Start ***** -->
+          <a href="index.html" class="logo">
+            <img src="assets/img/logo.png" />
+          </a>
+          <!-- ***** Logo End ***** -->
+          <!-- ***** Menu Start ***** -->
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/"
+                >home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" routerLink="/admin-login"> admin-login </a>
+            </li> -->
+
+            <li class="nav-item" *ngIf="user_role == 'admin'">
+              <a class="nav-link" routerLink="/all-order"> order </a>
+            </li>
+
+            <li class="nav-item" *ngIf="user_role == 'admin'">
+              <a class="nav-link" routerLink="/admin/product"> product </a>
+            </li>
+
+            <li class="nav-item" *ngIf="user_role == 'admin'">
+              <a class="nav-link" routerLink="/admin/user"> user </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link sim-pointer" routerLink="/aboutus">
+                About Us
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link sim-pointer" routerLink="/">
+                Products
+              </a>
+            </li>
+         
+
+            <!-- Dropdown begin -->
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                user
+              </a>
+
+           
+
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" routerLink="/sign-in">signin</a>
+                <a class="dropdown-item" routerLink="/sign-up">sign-up</a>
+              </div>
+            </li> -->
+
+            <!-- Dropdown End -->
+
+         
+
+            <li class="nav-item">
+              <a class="nav-link sim-pointer" routerLink="/cart">
+                <i class="fa fa-cart-shopping" aria-hidden="true"></i>({{ count ? count : 0 }})</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sim-pointer" routerLink="/sign-in">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link sim-pointer" (click)="logOut()" *ngIf="logged_in"> <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
+            </li>
+          </ul>
+          <!-- ***** Menu End ***** -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- ***** Header Area End ***** -->

@@ -1,0 +1,371 @@
+{
+  "user": [
+    {
+      "name": "rahaf",
+      "mobNumber": "1234567891",
+      "age": 27,
+      "dob": "1992-09-17",
+      "email": "admin1@gmail.com",
+      "password": "123456",
+      "language": [
+        "English",
+        "Oriya/Odiya"
+      ],
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "London",
+        "state": "Choose...",
+        "zipCode": "560037"
+      },
+      "aboutYou": "I am a programmer...",
+      "uploadPhoto": "C:\\fakepath\\Screenshot-demo from 2019-06-21 17-13-05.png",
+      "agreetc": true,
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "aboutYou": "I am programmer",
+      "age": 25,
+      "agreetc": true,
+      "dob": "2019-12-31",
+      "email": "seller@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": "560037"
+      },
+      "language": [
+        "Oriya/Odiya"
+      ],
+      "mobNumber": "0123456789",
+      "name": "Bijay",
+      "password": "123456",
+      "uploadPhoto": "C:\\fakepath\\Online Application.pdf",
+      "role": "seller",
+      "id": 2
+    },
+    {
+      "name": "Last user",
+      "mobNumber": "0123456789",
+      "age": 25,
+      "dob": "2017-11-30",
+      "email": "buyer@gmail.com",
+      "password": "123456",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": "560037"
+      },
+      "aboutYou": "djdhjdh",
+      "uploadPhoto": "C:\\fakepath\\Online Application.pdf",
+      "role": "buyer",
+      "id": 3
+    },
+    {
+      "name": "seller2",
+      "mobNumber": "1122222",
+      "age": 11,
+      "dob": "2024-03-14",
+      "email": "seller2@gmail.com",
+      "password": "123456",
+      "language": [
+        "English"
+      ],
+      "gender": "Female",
+      "address": {
+        "id": 0,
+        "addLine1": "123",
+        "addLine2": "123",
+        "city": "a",
+        "state": "...",
+        "zipCode": "aa"
+      },
+      "aboutYou": "aa",
+      "uploadPhoto": "C:\\fakepath\\carTier4.png",
+      "agreetc": true,
+      "role": "seller",
+      "id": 4
+    },
+    {
+      "aboutYou": "aaa",
+      "age": 12,
+      "agreetc": true,
+      "dob": "1999-12-12",
+      "email": "e@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "123456",
+        "addLine2": "123456",
+        "city": "aa",
+        "state": "...",
+        "zipCode": "123"
+      },
+      "language": [
+        "English"
+      ],
+      "mobNumber": "123456",
+      "name": "rahaf",
+      "password": "123456",
+      "uploadPhoto": "C:\\fakepath\\desktop-wallpaper-aesthetic-pastel-minimalist.jpg",
+      "role": "buyer",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": [
+        "./../assets/img/men-01.jpg",
+        "./../assets/img/slider1.jpg",
+        "./../assets/img/men-01.jpg"
+      ],
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "kind": "Men",
+      "status": "publish",
+      "price": "150"
+    },
+    {
+      "id": 2,
+      "name": "Water Bottle",
+      "uploadPhoto": [
+        "./../assets/img/slider1.jpg",
+        "./../assets/img/men-01.jpg",
+        "./../assets/img/slider1.jpg"
+      ],
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "kind": "Women",
+      "status": "publish",
+      "price": "250"
+    },
+    {
+      "id": 3,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": [
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "kind": "Kids",
+      "status": "draft",
+      "price": "150"
+    },
+    {
+      "id": 4,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": [
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "kind": "Accessories",
+      "status": "draft",
+      "price": "50"
+    },
+    {
+      "id": 5,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": [
+        "./../assets/img/slider3.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider3.jpg"
+      ],
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "kind": "Men",
+      "status": "inactive",
+      "price": "350"
+    },
+    {
+      "id": 6,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": [
+        "./../assets/img/bag.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/bag.jpg"
+      ],
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "kind": "Men",
+      "status": "publish",
+      "price": "300"
+    },
+    {
+      "id": 7,
+      "name": "Water Bottle",
+      "uploadPhoto": [
+        "./../assets/img/slider1.jpg",
+        "./../assets/img/slider1.jpg",
+        "./../assets/img/slider1.jpg"
+      ],
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "kind": "Men",
+      "status": "publish",
+      "price": "20"
+    },
+    {
+      "id": 8,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": [
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "kind": "Women",
+      "status": "draft",
+      "price": "650"
+    },
+    {
+      "id": 9,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": [
+        "./../assets/img/slider3.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "kind": "kids",
+      "status": "inactive",
+      "price": "40"
+    },
+    {
+      "id": 10,
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": [
+        "./../assets/img/bag.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "kind": "Men",
+      "status": "publish",
+      "price": "20"
+    },
+    {
+      "id": 11,
+      "name": "Water Bottle",
+      "uploadPhoto": [
+        "./../assets/img/slider1.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "kind": "Women",
+      "status": "publish",
+      "price": "350"
+    },
+    {
+      "id": 12,
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": [
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "Regional Speciality\nRajasthan\nFabric Care\nMachinne Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "kind": "Women",
+      "status": "draft",
+      "price": "750"
+    },
+    {
+      "id": 13,
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": [
+        "./../assets/img/slider3.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "kind": "Women",
+      "status": "inactive",
+      "price": "90"
+    },
+    {
+      "id": 14,
+      "name": "TIZUM Stand",
+      "uploadPhoto": [
+        "./../assets/img/slider3.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "kind": "Women",
+      "status": "publish",
+      "price": "150"
+    },
+    {
+      "id": 15,
+      "name": " Aluminium Portable Stand",
+      "uploadPhoto": [
+        "./../assets/img/slider3.jpg",
+        "./../assets/img/slider2.jpg",
+        "./../assets/img/slider2.jpg"
+      ],
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently. Universally designed to fit 3.5-8 inch phones and tablets without hassle. Apart from phones and tabs, the stand also holds gaming console like Nintendo play. •Aluminium Stand with Multi-Angle foldability ",
+      "kind": "Women",
+      "status": "publish",
+      "price": "150"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "./../assets/img/bag.jpg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "09040398006",
+      "dateTime": "18/07/2019"
+    }
+  ],
+  "aboutus": [
+    {
+      "title": "title",
+      "aboutImg": "./../assets/img/slider3.jpg",
+      "subTitle": "subTitle",
+      "qoute": "qoute",
+      "servicesDesc": "servicesDesc",
+      "servicesType": [
+        {
+          "id": 1,
+          "image": "./../assets/img/slider3.jpg",
+          "name": "service1",
+          "description": "service description 1"
+        }
+      ]
+    }
+  ],
+  "Men": [
+    {
+      "image": "./../assets/img/slider3.jpg",
+      "name": "men1",
+      "price": "1200$"
+    }
+  ]
+}
